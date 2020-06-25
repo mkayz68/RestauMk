@@ -1,0 +1,112 @@
+header {
+    background-color: #736c4d;
+    height: 38vh;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 31%;
+    height: auto;
+    margin-left: 12%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-top: 10%;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* SECTION 1 */
+
+.section1 {
+    background-image: url("../img/section1/imageombre.png");
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.textsection1 {
+    margin-top: 10%;
+}
+.booknow{
+    margin-top: 12%;
+}
+
+h1{
+    color:white;
+    font-size: 6rem;
+    font-family: AnticDidone;
+}
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #bf964b;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button:hover {
+    background-color: #eac074;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+/* SECTION 2 */
+
+.section2 {
+    height: 100vh;
+    background-color: #bf964b;
+}
+
+/* SECTION 3 */
+.section3 {
+    height: 100vh;
+    background-color: #736c4d;
+}
+
+
+
+@media screen {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
