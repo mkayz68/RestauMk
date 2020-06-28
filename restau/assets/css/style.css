@@ -39,6 +39,10 @@ header {
     font-size: 1rem;
 }
 
+
+
+
+
 /* SECTION 1 */
 
 .section1 {
@@ -48,27 +52,26 @@ header {
     display: flex;
 }
 .textsection1 {
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .booknow{
-    margin-top: 12%;
+    margin-top: 27%;
 }
 
-h1{
+.textsection1 h1{
     color:white;
-    font-size: 6rem;
+    font-size: 9rem;
     font-family: AnticDidone;
 }
 .button {
     border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
+    line-height: 5.5;
+    padding: 0 40px;
+    font-size: 1.2rem;
     text-align: center;
     color: white;
     background-color: #bf964b;
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
 .button:hover {
@@ -87,26 +90,676 @@ h1{
     background-color: #bf964b;
 }
 
+.imgsec2 img {
+    margin-left: -42%;
+}
+
+.textsec2 h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.section2 .textsec2 {
+    width: 23%;
+    margin-top: 16%;
+    margin-left: -6%;
+}
+
+.textsec2 p {
+    color: white;
+    font-size: 1.5rem;
+}
+
 /* SECTION 3 */
+
 .section3 {
     height: 100vh;
     background-color: #736c4d;
+
+}
+
+/* SECTION 4 */
+
+.section4 {
+    height: 100vh;
+    background-color: #bf964b;
+    position: relative;
+}
+
+.titlesec4 {
+    height: 30vh;
+    position: relative;
+}
+.titlesec4 h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.section4 .imgsec4 {
+    width: 1800px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.textsec4 p {
+    color: white;
+    font-size: 2rem;
+}
+
+
+/* SECTION 5 */
+
+.section5 {
+    height: 100vh;
+    background-color: #bf964b;
+    position: relative;
+}
+
+/* SECTION 6 */
+
+.section6 {
+    background-image: url("../img/section6/fourchette.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.section7 {
+    height: 100vh;
+    background-color: #bf964b;
+    position: relative;
+}
+
+.textsec7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.textsec7 p {
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+
+
+/* MAP */
+.sectionmap {
+    height: 100vh;
+}
+
+
+/* footer */
+footer {
+    height: 100vh;
+    background-color: #736c4d;
+    position: relative;
 }
 
 
 
-@media screen {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+
+
+
+
+    .col-1 {
+        width: 8.33%;
+        float: left;
+    }
+
+
+    .col-2 {
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-5 {
+        width: 41.66%;
+        float: left;
+
+    }
+
+    .col-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-7 {
+        width: 58.33%;
+        float: left;
+    }
+
+    .col-8 {
+        width: 66.66%;
+        float: left;
+    }
+
+    .col-9 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-10 {
+        width: 83.33%;
+        float: left;
+    }
+
+    .col-11 {
+        width: 91.66%;
+        float: left;
+    }
+
+    .col-12 {
+        width: 100%;
+        float: left;
+    }
+
+
+
+
+    /* GRAND ECRAN */
+
+@media all and (min-width: 1440px) and (max-width: 2500px) {
+
+    .col-lg-1 {
+        width: 8.33%;
+        float: left;
+    }
+
+
+    .col-lg-2 {
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+        float: left;
+
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+        float: left;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+        float: left;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+        float: left;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+        float: left;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+        float: left;
+    }
+
 }
 
+
+
+    /* COL MD */
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    header {
+        height: 27vh;
+    }
+    .textsection1 h1 {
+        font-size: 6rem;
+    }
+
+    /* SECTION 2 */
+
+    .imgsec2 img {
+        margin-left: -70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 118%;
+        height: auto;
+        position: absolute;
+        top: 6%;
+    }
+
+    .textsec2 p {
+        color: white;
+        font-size: 1.5rem;
+        width: 49%;
+    }
+    
+    
+    /* SECTION 3 */ 
+
+    .section3 {
+        display: flex;
+    }
+    .imgsec3 {
+        position: relative;
+    }
+
+    .imgsec3 img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 54%;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .textsec3 {
+        position: relative;
+    }
+
+    .textsec3 h2 {
+        color: white;
+    }
+
+    .textsec3 p {
+        color: white;
+    }
+
+    .textext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+
+    /* SECTION 5 */
+
+    .section5 {
+        display: flex;
+    }
+
+    .textleft {
+        position: relative;
+    }
+
+.section5 .titleleft {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.imgright img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 54%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 26%;
+
+}
+
+
+/* FOOTER */
+
+.content {
+    background-color: #bf964b;
+    height: 75vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.logos img {
+    width: 4%;
+    height: auto;
+    margin-left: 2%;
+
+}
+
+.logos {
+    text-align: center;
+}
+
+
+
+
+
+
+    .col-md-1 {
+        width: 8.33%;
+        float: left;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-md-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+        float: left;
+
+    }
+
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+        float: left;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+        float: left;
+    }
+
+    .col-md-9 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+        float: left;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+        float: left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+
+    /* COL MM */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .col-mm-1 {
+        width: 8.33%;
+        float: left;
+    }
+
+
+    .col-mm-2 {
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-mm-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-mm-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-mm-5 {
+        width: 41.66%;
+        float: left;
+
+    }
+
+    .col-mm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-mm-7 {
+        width: 58.33%;
+        float: left;
+    }
+
+    .col-mm-8 {
+        width: 66.66%;
+        float: left;
+    }
+
+    .col-mm-9 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-mm-10 {
+        width: 83.33%;
+        float: left;
+    }
+
+    .col-mm-11 {
+        width: 91.66%;
+        float: left;
+    }
+
+    .col-mm-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+
+    /* COL SM */
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+    .col-sm-1 {
+        width: 8.33%;
+        float: left;
+    }
+
+
+    .col-sm-2 {
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+        float: left;
+
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+        float: left;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+        float: left;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+        float: left;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+        float: left;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+
+    /* COL XS */
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+
+
+
+    .burger ul {
+        display: block;
+        text-align: center;
+    }
+
+    .menutoggle {
+        margin-right: 4%;
+        margin-top: -6%;
+    }
+
+    .col-xs-1 {
+        width: 8.33%;
+        float: left;
+    }
+
+
+    .col-xs-2 {
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-xs-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-xs-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-xs-5 {
+        width: 41.66%;
+        float: left;
+
+    }
+
+    .col-xs-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-xs-7 {
+        width: 58.33%;
+        float: left;
+    }
+
+    .col-xs-8 {
+        width: 66.66%;
+        float: left;
+    }
+
+    .col-xs-9 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-xs-10 {
+        width: 83.33%;
+        float: left;
+    }
+
+    .col-xs-11 {
+        width: 91.66%;
+        float: left;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
